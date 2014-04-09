@@ -1,5 +1,5 @@
 i{
-	background-image:url(../images/icons.png);
+	background-image:url(/icons.jpg);
 	background-repeat:no-repeat;
 	display:inline-block;
 }
@@ -11,5 +11,5 @@ i{
 }
 
 i.site-logo {	
-	@include background(133px,38px,-40px,-350px);
+	@include background(160px,150px,-30px,20px);
 }
