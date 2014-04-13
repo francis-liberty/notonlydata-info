@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h2><%= link_to_unless_current @post.title, @post %></h2>
+<h2><%= link_to_unless_current @post.title, @post.url %></h2>
 <%= simple_format @post.body %>
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
